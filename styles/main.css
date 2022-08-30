@@ -1,0 +1,22 @@
+
+img {
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+}
+
+.octocat {
+  width: 33%;
+  display: inline-block;
+}
+
+.author images {
+  height: 30px;
+  display: inline-block
+}
+
+span {
+  line-height: normal;
+  display: inline-block;
+}
+
