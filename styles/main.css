@@ -2,21 +2,31 @@
 img {
   width: 100%;  
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  border: solid black 4px;
+  border-spacing: 5px;
+  margin: auto;
 }
 
 .octocat {
+  position: relative;
   width: 33%;
   display: inline-block;
 }
 
-.author images {
-  height: 30px;
-  display: inline-block
+.authors {
+  max-height: 1px;
+  overflow: hidden;
 }
 
-span {
-  line-height: normal;
-  display: inline-block;
-}
+ .image-caption {
+  position: relative;
+  text-align: right;
+  
+ }
 
+span.image-number {
+  position: relative;
+  text-align: right;
+  display: flex;
+}
