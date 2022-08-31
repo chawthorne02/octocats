@@ -1,10 +1,8 @@
 
 img {
   width: 100%;  
-  display: flex;
-  justify-content: space-between;
-  border: solid black 4px;
-  border-spacing: 5px;
+  border: solid black 1px;
+  border-spacing: 4px;
   margin: auto;
 }
 
@@ -19,14 +17,20 @@ img {
   overflow: hidden;
 }
 
- .image-caption {
+.image-caption {
   position: relative;
   text-align: right;
   
  }
 
-span.image-number {
-  position: relative;
-  text-align: right;
-  display: flex;
+.image-footer {
+  text-align: left;
+  color: gray;
+  padding-left: 15px;
+  padding-top: 1px;
+}
+
+a {
+  text-decoration: none;
+  color:black;
 }
